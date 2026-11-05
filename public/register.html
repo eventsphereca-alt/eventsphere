@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register | EventSphere</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="/app.js"></script>
+  </head>
+  <body data-page="register">
+    <div class="shell">
+      <header class="site-header">
+        <div class="container header-row">
+          <a class="brand" href="/"><span class="brand-mark">ES</span><span>EventSphere</span></a>
+          <nav class="nav">
+            <a href="/">Home</a>
+            <a href="/vendors">Browse Vendors</a>
+          </nav>
+          <div class="actions">
+            <a class="button" href="/login">Sign in</a>
+          </div>
+        </div>
+      </header>
+
+      <main class="auth-wrap">
+        <form class="auth-card" data-register-form>
+          <div>
+            <h1>Create a vendor account</h1>
+            <p>Get a working vendor profile, then edit the listing from the dashboard.</p>
+          </div>
+          <div class="form-grid two-col">
+            <div class="field">
+              <label>Full Name</label>
+              <input required type="text" name="name" placeholder="Your name" />
+            </div>
+            <div class="field">
+              <label>Business Name</label>
+              <input required type="text" name="businessName" placeholder="Business name" />
+            </div>
+            <div class="field">
+              <label>Email</label>
+              <input required type="email" name="email" placeholder="name@example.com" />
+            </div>
+            <div class="field">
+              <label>Password</label>
+              <input required type="password" name="password" placeholder="Create a password" />
+            </div>
+            <div class="field">
+              <label>Category</label>
+              <select name="category">
+                <option>Event Planner</option>
+                <option>Catering</option>
+                <option>Photography</option>
+                <option>Videography</option>
+                <option>DJ & MC</option>
+                <option>Decor & Florals</option>
+                <option>Rentals</option>
+                <option>Makeup & Styling</option>
+              </select>
+            </div>
+            <div class="field">
+              <label>City</label>
+              <input type="text" name="city" placeholder="Toronto" />
+            </div>
+            <div class="field">
+              <label>Phone</label>
+              <input type="text" name="phone" placeholder="647-555-0100" />
+            </div>
+            <div class="field">
+              <label>Starting Price</label>
+              <input type="number" name="priceFrom" placeholder="500" />
+            </div>
+            <div class="field">
+              <label>Business URL</label>
+              <input type="url" name="website" placeholder="https://yourbusiness.com" />
+            </div>
+          </div>
+          <div class="field">
+            <label>Description</label>
+            <textarea name="description" placeholder="What do you offer?"></textarea>
+          </div>
+          <button class="button" type="submit">Create account</button>
+          <p class="form-hint">Already registered? <a href="/login">Sign in</a></p>
+          <div class="mini" data-form-message></div>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>

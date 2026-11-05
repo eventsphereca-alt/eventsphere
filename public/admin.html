@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard | EventSphere</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="/app.js"></script>
+  </head>
+  <body data-page="admin-dashboard">
+    <div class="shell">
+      <header class="site-header">
+        <div class="container header-row">
+          <a class="brand" href="/"><span class="brand-mark">ES</span><span>EventSphere</span></a>
+          <nav class="nav">
+            <a href="/">Home</a>
+            <a href="/vendors">Browse Vendors</a>
+            <a class="active" href="/dashboard/admin">Admin dashboard</a>
+          </nav>
+          <div class="actions">
+            <a class="button secondary" href="/register">List Your Business</a>
+            <button data-logout class="button">Sign out</button>
+          </div>
+        </div>
+      </header>
+
+      <main class="dashboard-shell">
+        <div class="container">
+          <div class="message hidden" data-guard>
+            <h3>Admin login required</h3>
+            <p>Use the seeded admin account to moderate live vendor records.</p>
+            <p><a href="/login">Go to login</a></p>
+          </div>
+
+          <div data-admin-app>
+            <section class="workspace dark">
+              <aside class="workspace-sidebar">
+                <div>
+                  <div class="workspace-brand">Admin dashboard</div>
+                  <div class="workspace-title">
+                    <h2>Network control</h2>
+                    <p>Dark operational shell for marketplace health, moderation flow, and featured inventory.</p>
+                  </div>
+                </div>
+                <nav class="workspace-nav">
+                  <a class="active" href="/dashboard/admin">Overview</a>
+                  <a href="/vendors">Marketplace</a>
+                </nav>
+                <div class="workspace-note">
+                  <p>Operational moderation view for internal vendor review.</p>
+                </div>
+              </aside>
+
+              <div class="workspace-main">
+                <div class="dashboard-head">
+                  <div class="workspace-title">
+                    <span class="eyebrow">Admin network</span>
+                    <h1>Marketplace control.</h1>
+                    <p>Moderate vendors, feature supply, and keep the inventory mix clean as new cities come online.</p>
+                  </div>
+                </div>
+
+                <div class="dashboard-kpis">
+                  <div class="kpi"><strong data-count-pending>0</strong><p>Pending</p></div>
+                  <div class="kpi"><strong data-count-approved>0</strong><p>Approved</p></div>
+                  <div class="kpi"><strong data-count-rejected>0</strong><p>Rejected</p></div>
+                  <div class="kpi"><strong data-count-featured>0</strong><p>Featured</p></div>
+                </div>
+
+                <section class="section">
+                  <div class="panel">
+                    <div class="panel-title">
+                      <div>
+                        <h3>Vendor moderation</h3>
+                        <p>Moderation, approvals, and featuring still write through to the same backend records.</p>
+                      </div>
+                      <div class="pill-nav">
+                        <button class="active" data-filter-status="all">All</button>
+                        <button data-filter-status="pending">Pending</button>
+                        <button data-filter-status="approved">Approved</button>
+                        <button data-filter-status="rejected">Rejected</button>
+                      </div>
+                    </div>
+                    <div class="queue" data-admin-list></div>
+                  </div>
+                </section>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

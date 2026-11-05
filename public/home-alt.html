@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EventSphere | Front-end Concept 2</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="/app.js"></script>
+  </head>
+  <body data-page="home-alt">
+    <div class="shell">
+      <header class="site-header">
+        <div class="container header-row">
+          <a class="brand" href="/"><span class="brand-mark">ES</span><span>EventSphere</span></a>
+          <nav class="nav">
+            <a href="/">Front-end 1</a>
+            <a class="active" href="/front/concept-2">Front-end 2</a>
+            <a href="/vendors">Browse Vendors</a>
+            <a data-dashboard-link href="/login">Dashboard</a>
+          </nav>
+          <div class="actions">
+            <a class="button secondary" href="/register">List Your Business</a>
+            <a data-guest-only class="button" href="/login">Sign in</a>
+            <button data-auth-only data-logout class="button ghost hidden">Sign out</button>
+          </div>
+        </div>
+      </header>
+
+      <main class="page">
+        <div class="container">
+          <section class="panel alt-hero">
+            <div class="alt-hero-copy">
+              <p class="mini">The curated marketplace</p>
+              <h1>Elevate your traditions.</h1>
+              <p>Discover master artisans, distinctive venues, and highly visual listings designed for a more editorial marketplace feel.</p>
+            </div>
+            <form data-alt-search-form>
+              <div class="search-bar compact">
+                <select name="type">
+                  <option value="all">All listings</option>
+                  <option value="vendor">Vendors</option>
+                  <option value="venue">Venues</option>
+                </select>
+                <select name="category">
+                  <option value="">Any category</option>
+                </select>
+                <select name="city">
+                  <option value="">Any city</option>
+                </select>
+                <input type="search" name="q" placeholder="Search city, style, category..." />
+                <button class="button" type="submit">Search</button>
+              </div>
+            </form>
+          </section>
+
+          <section class="section">
+            <div class="section-copy">
+              <span class="eyebrow">Venue capacity</span>
+              <h2>Filter by guest count first.</h2>
+              <p>Built for planners who lock the venue first, then assemble the vendor stack around it.</p>
+            </div>
+            <div class="tile-grid">
+              <article class="cap-tile">
+                <strong>50-100</strong>
+                <p>Smaller ceremonies and private family events.</p>
+                <span class="chip">Intimate</span>
+              </article>
+              <article class="cap-tile">
+                <strong>100-150</strong>
+                <p>Birthday halls, naming events, and community dinners.</p>
+                <span class="chip">Mid-size</span>
+              </article>
+              <article class="cap-tile">
+                <strong>200-500</strong>
+                <p>Large receptions with dance floors and vendor stations.</p>
+                <span class="chip">Celebration</span>
+              </article>
+              <article class="cap-tile">
+                <strong>500+</strong>
+                <p>Grand weddings, festivals, and high-volume cultural programs.</p>
+                <span class="chip">Scale</span>
+              </article>
+            </div>
+          </section>
+
+          <section class="section alt">
+            <div class="media-split">
+              <article class="media-block">
+                <div class="overlay-label">Traditional weddings and large-format receptions</div>
+              </article>
+              <article class="panel">
+                <div class="section-copy">
+                  <span class="eyebrow">Curated list</span>
+                  <h2>Layer vendor sourcing after the venue.</h2>
+                  <p>Once city, size, and event format are clear, categories do the rest of the work.</p>
+                </div>
+                <div class="chips" data-alt-categories></div>
+              </article>
+            </div>
+          </section>
+
+          <section class="section">
+            <div class="split">
+              <div class="section-copy">
+                <span class="eyebrow">City rails</span>
+                <h2>Demand-led city shortcuts.</h2>
+                <p>Useful when the marketplace expands city by city and planners shop local supply first.</p>
+              </div>
+              <div class="chips" data-alt-cities></div>
+            </div>
+          </section>
+
+          <section class="section alt">
+            <div class="section-copy">
+              <span class="eyebrow">Featured now</span>
+              <h2>Premium listings with stronger trust signals.</h2>
+              <p>Still marketplace-led, but with a more curated and editorial front-end rhythm.</p>
+            </div>
+            <div class="listing-grid" data-alt-top></div>
+          </section>
+
+          <section class="section">
+            <div class="section-copy">
+              <span class="eyebrow">Cross-category shortlist</span>
+              <h2>Recent listings across vendors and venues.</h2>
+              <p>Useful for users who are planning a whole event stack in one sitting.</p>
+            </div>
+            <div class="listing-grid" data-alt-latest></div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-grid">
+          <div>
+            <div class="brand">
+              <span class="brand-mark">ES</span>
+              <span>EventSphere</span>
+            </div>
+            <p>Marketplace concept two puts venue size, city routing, and curated supply at the center.</p>
+          </div>
+          <div>
+            <strong>Concepts</strong>
+            <p><a href="/">Front-end 1</a></p>
+            <p><a href="/dashboard/vendor-ops">Vendor 2</a></p>
+          </div>
+          <div>
+            <strong>Demo Access</strong>
+            <p><a href="/login">Vendor login</a></p>
+            <p><a href="/dashboard/admin-growth">Admin 2</a></p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

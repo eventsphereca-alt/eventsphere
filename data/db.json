@@ -1,0 +1,1433 @@
+{
+  "users": [
+    {
+      "id": "user-admin",
+      "name": "EventSphere Admin",
+      "email": "admin@eventsphere.ca",
+      "password": "demo123",
+      "role": "admin"
+    },
+    {
+      "id": "user-vendor-1",
+      "name": "Marcus Adebayo",
+      "email": "vendor@eventsphere.ca",
+      "password": "demo123",
+      "role": "vendor",
+      "vendorSlug": "golden-beats-dj-services"
+    }
+  ],
+  "vendors": [
+    {
+      "id": "vendor-1",
+      "slug": "golden-beats-dj-services",
+      "type": "vendor",
+      "businessName": "Golden Beats DJ Services",
+      "category": "DJ & MC",
+      "city": "Mississauga",
+      "province": "Ontario",
+      "priceFrom": 800,
+      "rating": 4.9,
+      "reviews": 61,
+      "verified": true,
+      "featured": true,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Professional DJ and MC team for weddings, birthdays, and large multicultural celebrations.",
+      "longDescription": "Golden Beats handles music direction, bilingual MC support, reception pacing, and dance floor energy for events that mix traditions, generations, and large guest counts. The team is strongest in weddings, milestone parties, and community galas.",
+      "tags": [
+        "Afrobeats",
+        "Punjabi",
+        "Top 40",
+        "Wedding MC"
+      ],
+      "languages": [
+        "English",
+        "Yoruba"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Birthday",
+        "Corporate",
+        "Community Event"
+      ],
+      "contact": {
+        "email": "marcus@goldenbeats.ca",
+        "phone": "647-555-0188",
+        "whatsapp": "16475550188"
+      },
+      "metrics": {
+        "profileViewsToday": 18,
+        "profileViewsWeek": 132,
+        "profileViewsMonth": 514,
+        "leadsOpen": 7,
+        "bookingsMonth": 5,
+        "responseTime": "1.2h"
+      },
+      "servicePackages": [
+        {
+          "id": "service-1",
+          "name": "DJ & MC",
+          "area": "Mississauga",
+          "priceFrom": 800,
+          "turnaround": "Custom quote",
+          "description": "Professional DJ and MC team for weddings, birthdays, and large multicultural celebrations."
+        }
+      ]
+    },
+    {
+      "id": "vendor-2",
+      "slug": "lagos-moments-photography",
+      "type": "vendor",
+      "businessName": "Lagos Moments Photography",
+      "category": "Photography",
+      "city": "Toronto",
+      "province": "Ontario",
+      "priceFrom": 1800,
+      "rating": 4.8,
+      "reviews": 47,
+      "verified": true,
+      "featured": true,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1525258946800-98cfd641d0de?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Wedding and cultural storytelling photography with cinematic highlight edits.",
+      "longDescription": "Lagos Moments focuses on emotional coverage, family portraits, and detail-led galleries that work well for large wedding programs and community-centered events.",
+      "tags": [
+        "Wedding",
+        "Traditional attire",
+        "Highlight film"
+      ],
+      "languages": [
+        "English",
+        "French"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Naming Ceremony",
+        "Engagement"
+      ],
+      "contact": {
+        "email": "hello@lagosmoments.ca",
+        "phone": "416-555-0134",
+        "whatsapp": "14165550134"
+      },
+      "metrics": {
+        "profileViewsToday": 10,
+        "profileViewsWeek": 74,
+        "profileViewsMonth": 266,
+        "leadsOpen": 4,
+        "bookingsMonth": 3,
+        "responseTime": "2.0h"
+      }
+    },
+    {
+      "id": "vendor-3",
+      "slug": "spice-garden-catering",
+      "type": "vendor",
+      "businessName": "Spice Garden Catering",
+      "category": "Catering",
+      "city": "Brampton",
+      "province": "Ontario",
+      "priceFrom": 2500,
+      "rating": 4.9,
+      "reviews": 88,
+      "verified": true,
+      "featured": true,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1555244162-803834f70033?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "South Asian, African, and fusion event catering for large guest counts.",
+      "longDescription": "Spice Garden handles buffet service, plated dinner programs, tasting sessions, and late-night event service for weddings and celebrations that span multiple cuisines.",
+      "tags": [
+        "Halal",
+        "Buffet",
+        "Fusion menus"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Punjabi"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Birthday",
+        "Corporate",
+        "Festival"
+      ],
+      "contact": {
+        "email": "hello@spicegarden.ca",
+        "phone": "905-555-0102",
+        "whatsapp": "19055550102"
+      },
+      "metrics": {
+        "profileViewsToday": 23,
+        "profileViewsWeek": 158,
+        "profileViewsMonth": 612,
+        "leadsOpen": 9,
+        "bookingsMonth": 6,
+        "responseTime": "48m"
+      }
+    },
+    {
+      "id": "vendor-4",
+      "slug": "lotus-bloom-decor",
+      "type": "vendor",
+      "businessName": "Lotus Bloom Decor",
+      "category": "Decor & Florals",
+      "city": "Markham",
+      "province": "Ontario",
+      "priceFrom": 2200,
+      "rating": 4.7,
+      "reviews": 33,
+      "verified": true,
+      "featured": false,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Elegant staging, floral installations, and guest table styling.",
+      "longDescription": "Lotus Bloom works on weddings, naming ceremonies, and gala evenings with full room styling, entry statements, custom signage, and floral-focused design packages.",
+      "tags": [
+        "Floral wall",
+        "Stage design",
+        "Luxury tablescapes"
+      ],
+      "languages": [
+        "English",
+        "Mandarin"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Naming Ceremony",
+        "Birthday"
+      ],
+      "contact": {
+        "email": "studio@lotusbloom.ca",
+        "phone": "647-555-0108",
+        "whatsapp": "16475550108"
+      },
+      "metrics": {
+        "profileViewsToday": 7,
+        "profileViewsWeek": 54,
+        "profileViewsMonth": 210,
+        "leadsOpen": 5,
+        "bookingsMonth": 2,
+        "responseTime": "1.6h"
+      }
+    },
+    {
+      "id": "vendor-5",
+      "slug": "soles-n-shades-videography",
+      "type": "vendor",
+      "businessName": "Soles N Shades",
+      "category": "Videography",
+      "city": "Toronto",
+      "province": "Ontario",
+      "priceFrom": 1500,
+      "rating": 4.6,
+      "reviews": 18,
+      "verified": false,
+      "featured": false,
+      "status": "pending",
+      "image": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Crisp event films and social-ready recap edits.",
+      "longDescription": "Soles N Shades offers highlight films, social edits, and full event coverage for modern couples and brands.",
+      "tags": [
+        "Highlight film",
+        "Social edits"
+      ],
+      "languages": [
+        "English"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Birthday",
+        "Corporate"
+      ],
+      "contact": {
+        "email": "tayo@solesnshades.ca",
+        "phone": "416-555-0164",
+        "whatsapp": "14165550164"
+      },
+      "metrics": {
+        "profileViewsToday": 2,
+        "profileViewsWeek": 9,
+        "profileViewsMonth": 38,
+        "leadsOpen": 1,
+        "bookingsMonth": 0,
+        "responseTime": "6.1h"
+      }
+    },
+    {
+      "id": "vendor-6",
+      "slug": "north-star-planning-co",
+      "type": "vendor",
+      "businessName": "North Star Planning Co.",
+      "category": "Event Planner",
+      "city": "Ottawa",
+      "province": "Ontario",
+      "priceFrom": 3200,
+      "rating": 4.8,
+      "reviews": 25,
+      "verified": true,
+      "featured": false,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Full-service planning for multicultural weddings and milestone events.",
+      "longDescription": "North Star coordinates venue sourcing, vendor management, timelines, and family logistics for events that need structure and calm execution.",
+      "tags": [
+        "Planning",
+        "Coordination",
+        "Timeline build"
+      ],
+      "languages": [
+        "English",
+        "Arabic"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Community Event",
+        "Corporate"
+      ],
+      "contact": {
+        "email": "hello@northstarplanning.ca",
+        "phone": "613-555-0199",
+        "whatsapp": "16135550199"
+      },
+      "metrics": {
+        "profileViewsToday": 9,
+        "profileViewsWeek": 62,
+        "profileViewsMonth": 224,
+        "leadsOpen": 3,
+        "bookingsMonth": 2,
+        "responseTime": "2.5h"
+      }
+    },
+    {
+      "id": "vendor-7",
+      "slug": "canvas-makeup-artistry",
+      "type": "vendor",
+      "businessName": "Canvas Makeup Artistry",
+      "category": "Makeup & Styling",
+      "city": "Calgary",
+      "province": "Alberta",
+      "priceFrom": 650,
+      "rating": 4.7,
+      "reviews": 28,
+      "verified": true,
+      "featured": false,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Bridal glam and event styling for modern and traditional looks.",
+      "longDescription": "Canvas Makeup handles bridal parties, engagement shoots, and event-day touch-up support with looks designed around attire, photography, and lighting.",
+      "tags": [
+        "Bridal glam",
+        "Hair styling",
+        "Touch-up kit"
+      ],
+      "languages": [
+        "English"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Engagement",
+        "Birthday"
+      ],
+      "contact": {
+        "email": "book@canvasmakeup.ca",
+        "phone": "403-555-0111",
+        "whatsapp": "14035550111"
+      },
+      "metrics": {
+        "profileViewsToday": 6,
+        "profileViewsWeek": 41,
+        "profileViewsMonth": 188,
+        "leadsOpen": 4,
+        "bookingsMonth": 2,
+        "responseTime": "1.9h"
+      }
+    },
+    {
+      "id": "vendor-8",
+      "slug": "atlas-event-rentals",
+      "type": "vendor",
+      "businessName": "Atlas Event Rentals",
+      "category": "Rentals",
+      "city": "Vancouver",
+      "province": "British Columbia",
+      "priceFrom": 1200,
+      "rating": 4.5,
+      "reviews": 19,
+      "verified": true,
+      "featured": false,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Chairs, tables, tents, lighting, and lounge furniture for large-scale events.",
+      "longDescription": "Atlas supports weddings, community festivals, and outdoor events with delivery, setup, and teardown services.",
+      "tags": [
+        "Tent rental",
+        "Furniture",
+        "Lighting"
+      ],
+      "languages": [
+        "English"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Festival",
+        "Corporate"
+      ],
+      "contact": {
+        "email": "bookings@atlaseventrentals.ca",
+        "phone": "604-555-0160",
+        "whatsapp": "16045550160"
+      },
+      "metrics": {
+        "profileViewsToday": 4,
+        "profileViewsWeek": 21,
+        "profileViewsMonth": 93,
+        "leadsOpen": 2,
+        "bookingsMonth": 1,
+        "responseTime": "3.4h"
+      }
+    },
+    {
+      "id": "vendor-9",
+      "slug": "opal-aisle-decor-studio",
+      "type": "vendor",
+      "businessName": "Opal Aisle Decor Studio",
+      "category": "Decor & Florals",
+      "city": "Toronto",
+      "province": "Ontario",
+      "priceFrom": 2400,
+      "rating": 4.8,
+      "reviews": 34,
+      "verified": true,
+      "featured": false,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Ceremony backdrops, florals, and reception styling for elegant cultural celebrations.",
+      "longDescription": "Opal Aisle builds ceremony installations, sweetheart stages, entrance florals, and guest-table styling for weddings and formal celebrations.",
+      "tags": [
+        "Fresh florals",
+        "Backdrops",
+        "Reception styling"
+      ],
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Engagement",
+        "Naming Ceremony"
+      ],
+      "contact": {
+        "email": "studio@opalaisle.ca",
+        "phone": "416-555-0240",
+        "whatsapp": "14165550240"
+      },
+      "metrics": {
+        "profileViewsToday": 11,
+        "profileViewsWeek": 67,
+        "profileViewsMonth": 245,
+        "leadsOpen": 4,
+        "bookingsMonth": 3,
+        "responseTime": "1.8h"
+      }
+    },
+    {
+      "id": "vendor-10",
+      "slug": "cedar-lens-films",
+      "type": "vendor",
+      "businessName": "Cedar Lens Films",
+      "category": "Videography",
+      "city": "Ottawa",
+      "province": "Ontario",
+      "priceFrom": 2100,
+      "rating": 4.7,
+      "reviews": 27,
+      "verified": true,
+      "featured": false,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Cinematic wedding and event films with social edits and recap coverage.",
+      "longDescription": "Cedar Lens covers full-day celebrations, speeches, dance floors, and social clips with a documentary-first editing style.",
+      "tags": [
+        "Highlight film",
+        "Social edits",
+        "Drone"
+      ],
+      "languages": [
+        "English",
+        "French"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Corporate",
+        "Community Event"
+      ],
+      "contact": {
+        "email": "hello@cedarlens.ca",
+        "phone": "613-555-0247",
+        "whatsapp": "16135550247"
+      },
+      "metrics": {
+        "profileViewsToday": 8,
+        "profileViewsWeek": 46,
+        "profileViewsMonth": 176,
+        "leadsOpen": 3,
+        "bookingsMonth": 2,
+        "responseTime": "2.2h"
+      }
+    },
+    {
+      "id": "vendor-11",
+      "slug": "saffron-table-co",
+      "type": "vendor",
+      "businessName": "Saffron Table Co.",
+      "category": "Catering",
+      "city": "Mississauga",
+      "province": "Ontario",
+      "priceFrom": 2900,
+      "rating": 4.9,
+      "reviews": 52,
+      "verified": true,
+      "featured": true,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "South Asian, fusion, and vegetarian catering for weddings and formal events.",
+      "longDescription": "Saffron Table handles buffet design, family-style catering, late-night stations, and tasting-led menu planning for large guest counts.",
+      "tags": [
+        "Fusion menus",
+        "Vegetarian",
+        "Late-night station"
+      ],
+      "languages": [
+        "English",
+        "Punjabi"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Corporate",
+        "Graduation"
+      ],
+      "contact": {
+        "email": "events@saffrontable.ca",
+        "phone": "905-555-0221",
+        "whatsapp": "19055550221"
+      },
+      "metrics": {
+        "profileViewsToday": 16,
+        "profileViewsWeek": 98,
+        "profileViewsMonth": 361,
+        "leadsOpen": 6,
+        "bookingsMonth": 4,
+        "responseTime": "1.4h"
+      }
+    },
+    {
+      "id": "vendor-12",
+      "slug": "ivory-frame-photography",
+      "type": "vendor",
+      "businessName": "Ivory Frame Photography",
+      "category": "Photography",
+      "city": "Vancouver",
+      "province": "British Columbia",
+      "priceFrom": 2200,
+      "rating": 4.8,
+      "reviews": 41,
+      "verified": true,
+      "featured": false,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Editorial wedding coverage, portraits, and candid storytelling for modern celebrations.",
+      "longDescription": "Ivory Frame creates polished galleries for weddings, engagement sessions, and milestone events with a clean editorial finish.",
+      "tags": [
+        "Editorial",
+        "Candid",
+        "Portraits"
+      ],
+      "languages": [
+        "English"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Engagement",
+        "Corporate"
+      ],
+      "contact": {
+        "email": "bookings@ivoryframe.ca",
+        "phone": "604-555-0272",
+        "whatsapp": "16045550272"
+      },
+      "metrics": {
+        "profileViewsToday": 10,
+        "profileViewsWeek": 59,
+        "profileViewsMonth": 231,
+        "leadsOpen": 4,
+        "bookingsMonth": 3,
+        "responseTime": "1.7h"
+      }
+    },
+    {
+      "id": "vendor-13",
+      "slug": "ember-sound-collective",
+      "type": "vendor",
+      "businessName": "Ember Sound Collective",
+      "category": "DJ & MC",
+      "city": "Calgary",
+      "province": "Alberta",
+      "priceFrom": 950,
+      "rating": 4.7,
+      "reviews": 31,
+      "verified": true,
+      "featured": false,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Reception DJs, emcees, and sound support for high-energy weddings and milestone parties.",
+      "longDescription": "Ember Sound handles ceremony audio, receptions, and multilingual crowd management for events that need smooth pacing and strong sound.",
+      "tags": [
+        "Reception audio",
+        "MC support",
+        "Dance floor"
+      ],
+      "languages": [
+        "English",
+        "Arabic"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Birthday",
+        "Community Event"
+      ],
+      "contact": {
+        "email": "hello@embersound.ca",
+        "phone": "403-555-0253",
+        "whatsapp": "14035550253"
+      },
+      "metrics": {
+        "profileViewsToday": 7,
+        "profileViewsWeek": 42,
+        "profileViewsMonth": 156,
+        "leadsOpen": 3,
+        "bookingsMonth": 2,
+        "responseTime": "2.0h"
+      }
+    },
+    {
+      "id": "vendor-14",
+      "slug": "blush-ritual-beauty",
+      "type": "vendor",
+      "businessName": "Blush Ritual Beauty",
+      "category": "Makeup & Styling",
+      "city": "Toronto",
+      "province": "Ontario",
+      "priceFrom": 780,
+      "rating": 4.8,
+      "reviews": 36,
+      "verified": true,
+      "featured": false,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Soft glam, bridal beauty, and event-ready styling for intimate and large-format celebrations.",
+      "longDescription": "Blush Ritual supports brides, family members, and editorial portraits with timeline-friendly beauty services and touch-up support.",
+      "tags": [
+        "Soft glam",
+        "Bridal party",
+        "On-site beauty"
+      ],
+      "languages": [
+        "English",
+        "French"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Engagement",
+        "Birthday"
+      ],
+      "contact": {
+        "email": "artist@blushritual.ca",
+        "phone": "416-555-0266",
+        "whatsapp": "14165550266"
+      },
+      "metrics": {
+        "profileViewsToday": 9,
+        "profileViewsWeek": 55,
+        "profileViewsMonth": 208,
+        "leadsOpen": 4,
+        "bookingsMonth": 3,
+        "responseTime": "1.5h"
+      }
+    },
+    {
+      "id": "vendor-15",
+      "slug": "olive-branch-event-planning",
+      "type": "vendor",
+      "businessName": "Olive Branch Event Planning",
+      "category": "Event Planner",
+      "city": "Montreal",
+      "province": "Quebec",
+      "priceFrom": 3400,
+      "rating": 4.8,
+      "reviews": 22,
+      "verified": true,
+      "featured": false,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Planning, coordination, and guest-flow support for weddings and community celebrations.",
+      "longDescription": "Olive Branch manages sourcing, timeline control, guest logistics, and vendor coordination for polished large-format events.",
+      "tags": [
+        "Full-service planning",
+        "Coordination",
+        "Guest flow"
+      ],
+      "languages": [
+        "English",
+        "French",
+        "Arabic"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Corporate",
+        "Festival"
+      ],
+      "contact": {
+        "email": "team@olivebranchevents.ca",
+        "phone": "514-555-0255",
+        "whatsapp": "15145550255"
+      },
+      "metrics": {
+        "profileViewsToday": 6,
+        "profileViewsWeek": 37,
+        "profileViewsMonth": 142,
+        "leadsOpen": 2,
+        "bookingsMonth": 2,
+        "responseTime": "2.4h"
+      }
+    },
+    {
+      "id": "vendor-16",
+      "slug": "northshore-tent-and-lighting",
+      "type": "vendor",
+      "businessName": "Northshore Tent & Lighting",
+      "category": "Rentals",
+      "city": "Winnipeg",
+      "province": "Manitoba",
+      "priceFrom": 1800,
+      "rating": 4.6,
+      "reviews": 24,
+      "verified": true,
+      "featured": false,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Tent structures, lighting, seating, and weather-ready rental support for outdoor events.",
+      "longDescription": "Northshore provides delivery, setup, teardown, and on-site event rental coordination for weddings, festivals, and large gatherings.",
+      "tags": [
+        "Tent rental",
+        "Weather cover",
+        "Lighting"
+      ],
+      "languages": [
+        "English"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Festival",
+        "Community Event"
+      ],
+      "contact": {
+        "email": "rentals@northshoretent.ca",
+        "phone": "204-555-0280",
+        "whatsapp": "12045550280"
+      },
+      "metrics": {
+        "profileViewsToday": 5,
+        "profileViewsWeek": 29,
+        "profileViewsMonth": 111,
+        "leadsOpen": 2,
+        "bookingsMonth": 1,
+        "responseTime": "3.1h"
+      }
+    },
+    {
+      "id": "vendor-17",
+      "slug": "cedar-lens-films",
+      "type": "vendor",
+      "businessName": "Cedar Lens Films",
+      "category": "Videography",
+      "city": "Ottawa",
+      "province": "Ontario",
+      "priceFrom": 2100,
+      "rating": 4.7,
+      "reviews": 33,
+      "verified": true,
+      "featured": false,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Cinematic event films and same-day edits for weddings and cultural celebrations.",
+      "longDescription": "Cedar Lens Films produces highlight reels, ceremony edits, and social cuts with multicamera coverage and audio cleanup.",
+      "tags": [
+        "Highlight film",
+        "Multicam",
+        "Same-day edits"
+      ],
+      "languages": [
+        "English",
+        "French"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Corporate",
+        "Festival"
+      ],
+      "contact": {
+        "email": "hello@cedarlens.ca",
+        "phone": "613-555-0304",
+        "whatsapp": "16135550304"
+      },
+      "metrics": {
+        "profileViewsToday": 7,
+        "profileViewsWeek": 41,
+        "profileViewsMonth": 168,
+        "leadsOpen": 3,
+        "bookingsMonth": 2,
+        "responseTime": "2.6h"
+      }
+    },
+    {
+      "id": "vendor-18",
+      "slug": "blush-ritual-beauty",
+      "type": "vendor",
+      "businessName": "Blush Ritual Beauty",
+      "category": "Makeup & Styling",
+      "city": "Toronto",
+      "province": "Ontario",
+      "priceFrom": 900,
+      "rating": 4.8,
+      "reviews": 58,
+      "verified": true,
+      "featured": true,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Bridal, party, and editorial makeup services for diverse skin tones and event styles.",
+      "longDescription": "Blush Ritual offers on-site glam teams, trial sessions, and fast turnaround touch-ups for large wedding parties.",
+      "tags": [
+        "Bridal glam",
+        "On-site team",
+        "Editorial finish"
+      ],
+      "languages": [
+        "English"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Birthday",
+        "Corporate"
+      ],
+      "contact": {
+        "email": "artist@blushritual.ca",
+        "phone": "416-555-0266",
+        "whatsapp": "14165550266"
+      },
+      "metrics": {
+        "profileViewsToday": 9,
+        "profileViewsWeek": 55,
+        "profileViewsMonth": 208,
+        "leadsOpen": 4,
+        "bookingsMonth": 3,
+        "responseTime": "1.5h"
+      }
+    },
+    {
+      "id": "vendor-19",
+      "slug": "maple-aisle-event-planning",
+      "type": "vendor",
+      "businessName": "Maple Aisle Event Planning",
+      "category": "Event Planner",
+      "city": "Calgary",
+      "province": "Alberta",
+      "priceFrom": 2800,
+      "rating": 4.7,
+      "reviews": 28,
+      "verified": true,
+      "featured": false,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "End-to-end planning and timeline management for multicultural weddings and large events.",
+      "longDescription": "Maple Aisle handles sourcing, scheduling, and vendor coordination to keep event-day operations smooth and predictable.",
+      "tags": [
+        "Planning",
+        "Coordination",
+        "Guest logistics"
+      ],
+      "languages": [
+        "English",
+        "Hindi"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Community Event",
+        "Corporate"
+      ],
+      "contact": {
+        "email": "hello@mapleaisle.ca",
+        "phone": "403-555-0318",
+        "whatsapp": "14035550318"
+      },
+      "metrics": {
+        "profileViewsToday": 6,
+        "profileViewsWeek": 38,
+        "profileViewsMonth": 147,
+        "leadsOpen": 2,
+        "bookingsMonth": 2,
+        "responseTime": "2.8h"
+      }
+    },
+    {
+      "id": "vendor-20",
+      "slug": "summit-sound-collective",
+      "type": "vendor",
+      "businessName": "Summit Sound Collective",
+      "category": "DJ & MC",
+      "city": "Vancouver",
+      "province": "British Columbia",
+      "priceFrom": 1400,
+      "rating": 4.8,
+      "reviews": 44,
+      "verified": true,
+      "featured": false,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "DJ and MC collective covering receptions, concerts, and private celebrations.",
+      "longDescription": "Summit Sound provides bilingual MC support, curated setlists, and full reception pacing for multicultural audiences.",
+      "tags": [
+        "Bilingual MC",
+        "Live remix",
+        "Crowd control"
+      ],
+      "languages": [
+        "English",
+        "Mandarin"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Corporate",
+        "Festival"
+      ],
+      "contact": {
+        "email": "book@summitsound.ca",
+        "phone": "604-555-0332",
+        "whatsapp": "16045550332"
+      },
+      "metrics": {
+        "profileViewsToday": 8,
+        "profileViewsWeek": 47,
+        "profileViewsMonth": 186,
+        "leadsOpen": 3,
+        "bookingsMonth": 2,
+        "responseTime": "1.9h"
+      }
+    },
+    {
+      "id": "vendor-21",
+      "slug": "aurora-floral-atelier",
+      "type": "vendor",
+      "businessName": "Aurora Floral Atelier",
+      "category": "Decor & Florals",
+      "city": "Montreal",
+      "province": "Quebec",
+      "priceFrom": 1900,
+      "rating": 4.9,
+      "reviews": 36,
+      "verified": true,
+      "featured": true,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Ceremony and reception floral styling with modern, cultural, and fusion design palettes.",
+      "longDescription": "Aurora Floral handles installations, bouquet styling, and stage decor for weddings and high-touch community celebrations.",
+      "tags": [
+        "Floral installation",
+        "Stage decor",
+        "Custom palette"
+      ],
+      "languages": [
+        "English",
+        "French"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Naming Ceremony",
+        "Engagement"
+      ],
+      "contact": {
+        "email": "studio@aurorafloral.ca",
+        "phone": "514-555-0340",
+        "whatsapp": "15145550340"
+      },
+      "metrics": {
+        "profileViewsToday": 11,
+        "profileViewsWeek": 61,
+        "profileViewsMonth": 233,
+        "leadsOpen": 4,
+        "bookingsMonth": 3,
+        "responseTime": "1.7h"
+      }
+    },
+    {
+      "id": "vendor-22",
+      "slug": "atlas-event-rentals",
+      "type": "vendor",
+      "businessName": "Atlas Event Rentals",
+      "category": "Rentals",
+      "city": "Toronto",
+      "province": "Ontario",
+      "priceFrom": 1600,
+      "rating": 4.7,
+      "reviews": 31,
+      "verified": true,
+      "featured": false,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Furniture, staging, tenting, and lighting rentals for weddings and cultural events.",
+      "longDescription": "Atlas Event Rentals supplies coordinated rental packages with delivery, setup, and teardown across the GTA.",
+      "tags": [
+        "Staging",
+        "Furniture",
+        "Lighting"
+      ],
+      "languages": [
+        "English"
+      ],
+      "eventTypes": [
+        "Wedding",
+        "Corporate",
+        "Festival"
+      ],
+      "contact": {
+        "email": "bookings@atlasevents.ca",
+        "phone": "416-555-0355",
+        "whatsapp": "14165550355"
+      },
+      "metrics": {
+        "profileViewsToday": 7,
+        "profileViewsWeek": 43,
+        "profileViewsMonth": 172,
+        "leadsOpen": 3,
+        "bookingsMonth": 2,
+        "responseTime": "2.2h"
+      }
+    }
+  ],
+  "venues": [
+    {
+      "id": "venue-1",
+      "slug": "regent-ballroom-toronto",
+      "type": "venue",
+      "businessName": "Regent Ballroom",
+      "category": "Venue",
+      "city": "Toronto",
+      "province": "Ontario",
+      "priceFrom": 4500,
+      "capacity": "500-1000",
+      "rating": 4.8,
+      "reviews": 41,
+      "verified": true,
+      "featured": true,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=1200&q=80",
+        "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Large-format ballroom with in-house lighting and staging options.",
+      "longDescription": "Regent Ballroom hosts weddings, galas, and community banquets with flexible floorplans and premium AV support.",
+      "tags": [
+        "Ballroom",
+        "Valet",
+        "Stage access"
+      ],
+      "contact": {
+        "email": "events@regentballroom.ca",
+        "phone": "416-555-0100",
+        "whatsapp": "14165550100"
+      }
+    },
+    {
+      "id": "venue-2",
+      "slug": "canal-house-ottawa",
+      "type": "venue",
+      "businessName": "Canal House",
+      "category": "Venue",
+      "city": "Ottawa",
+      "province": "Ontario",
+      "priceFrom": 2800,
+      "capacity": "100-150",
+      "rating": 4.6,
+      "reviews": 22,
+      "verified": true,
+      "featured": false,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Loft-style venue for intimate weddings and elegant private events.",
+      "longDescription": "Canal House pairs a modern loft aesthetic with terrace access and a flexible vendor policy.",
+      "tags": [
+        "Loft",
+        "Terrace",
+        "Natural light"
+      ],
+      "contact": {
+        "email": "hello@canalhouse.ca",
+        "phone": "613-555-0120",
+        "whatsapp": "16135550120"
+      }
+    },
+    {
+      "id": "venue-3",
+      "slug": "elm-garden-pavilion-calgary",
+      "type": "venue",
+      "businessName": "Elm Garden Pavilion",
+      "category": "Venue",
+      "city": "Calgary",
+      "province": "Alberta",
+      "priceFrom": 3900,
+      "capacity": "200-500",
+      "rating": 4.7,
+      "reviews": 29,
+      "verified": true,
+      "featured": true,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Indoor and outdoor pavilion with garden ceremony options.",
+      "longDescription": "Elm Garden handles receptions, cultural ceremonies, and midsize community events with strong catering access and outdoor flow.",
+      "tags": [
+        "Garden",
+        "Ceremony lawn",
+        "Indoor hall"
+      ],
+      "contact": {
+        "email": "sales@elmgarden.ca",
+        "phone": "403-555-0172",
+        "whatsapp": "14035550172"
+      }
+    },
+    {
+      "id": "venue-4",
+      "slug": "harbour-view-hall-vancouver",
+      "type": "venue",
+      "businessName": "Harbour View Hall",
+      "category": "Venue",
+      "city": "Vancouver",
+      "province": "British Columbia",
+      "priceFrom": 5200,
+      "capacity": "1000+",
+      "rating": 4.9,
+      "reviews": 18,
+      "verified": true,
+      "featured": true,
+      "status": "approved",
+      "image": "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80",
+      "gallery": [
+        "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1200&q=80"
+      ],
+      "description": "Waterfront venue for large receptions, galas, and festivals.",
+      "longDescription": "Harbour View Hall supports major celebrations with premium views, flexible staging, and full-service event operations.",
+      "tags": [
+        "Waterfront",
+        "Large capacity",
+        "AV included"
+      ],
+      "contact": {
+        "email": "events@harbourviewhall.ca",
+        "phone": "604-555-0191",
+        "whatsapp": "16045550191"
+      }
+    }
+  ],
+  "adminRequests": [
+    {
+      "id": "support-payment-issue",
+      "requester": "Golden Beats DJ Services",
+      "requesterSlug": "golden-beats-dj-services",
+      "subject": "Payment setup support",
+      "type": "Support ticket",
+      "priority": "High",
+      "age": "18m ago",
+      "dateRank": 1,
+      "email": "accounts@goldenbeats.ca",
+      "message": "Vendor cannot finish payout setup because the bank verification status is stuck in review. They need support before sending new quotes.",
+      "status": "pending",
+      "createdAt": "2026-06-14T16:12:00.000Z",
+      "updatedAt": "2026-07-07T16:14:57.335Z"
+    },
+    {
+      "id": "help-calendar-sync",
+      "requester": "Luxe Decor Studio",
+      "requesterSlug": "luxe-decor-studio",
+      "subject": "Calendar sync assistance",
+      "type": "Help request",
+      "priority": "Medium",
+      "age": "42m ago",
+      "dateRank": 2,
+      "email": "studio@luxedecor.ca",
+      "message": "Vendor wants help connecting Google Calendar availability so unavailable dates stop showing on the public profile.",
+      "status": "pending",
+      "createdAt": "2026-06-14T15:48:00.000Z",
+      "updatedAt": "2026-06-14T15:48:00.000Z"
+    },
+    {
+      "id": "feature-team-permissions",
+      "requester": "Atlas Event Rentals",
+      "requesterSlug": "atlas-event-rentals",
+      "subject": "Team permissions request",
+      "type": "Feature request",
+      "priority": "Normal",
+      "age": "2h ago",
+      "dateRank": 3,
+      "email": "ops@atlasevents.ca",
+      "message": "Vendor asked for multi-user permissions so staff can manage leads without accessing account security settings.",
+      "status": "pending",
+      "createdAt": "2026-06-14T14:30:00.000Z",
+      "updatedAt": "2026-06-14T14:30:00.000Z"
+    },
+    {
+      "id": "assistance-media-upload",
+      "requester": "Soles N Shades",
+      "requesterSlug": "soles-n-shades",
+      "subject": "Media upload assistance",
+      "type": "Assistance request",
+      "priority": "Normal",
+      "age": "4h ago",
+      "dateRank": 4,
+      "email": "hello@solesnshades.ca",
+      "message": "Vendor reports that gallery images upload but do not appear in the order they selected. They need help before publishing updates.",
+      "status": "flagged",
+      "createdAt": "2026-06-14T12:30:00.000Z",
+      "updatedAt": "2026-06-14T12:30:00.000Z"
+    }
+  ],
+  "reviewRequests": [
+    {
+      "id": "review-request-goldenbeats-1",
+      "vendorSlug": "golden-beats-dj-services",
+      "vendorName": "Golden Beats DJ Services",
+      "clientName": "Amina O.",
+      "clientEmail": "amina.owusu@example.com",
+      "eventType": "Wedding reception",
+      "sentAt": "June 10, 2026",
+      "status": "pending",
+      "source": "Email link",
+      "createdAt": "2026-06-10T10:00:00.000Z",
+      "updatedAt": "2026-07-07T16:14:57.337Z"
+    },
+    {
+      "id": "review-request-goldenbeats-2",
+      "vendorSlug": "golden-beats-dj-services",
+      "vendorName": "Golden Beats DJ Services",
+      "clientName": "Daniel K.",
+      "clientEmail": "daniel.kim@example.com",
+      "eventType": "Corporate gala",
+      "sentAt": "May 14, 2026",
+      "status": "approved",
+      "source": "Email link",
+      "createdAt": "2026-05-14T12:00:00.000Z",
+      "updatedAt": "2026-05-18T14:30:00.000Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "review-goldenbeats-1",
+      "requestId": "review-request-goldenbeats-1",
+      "vendorSlug": "golden-beats-dj-services",
+      "vendorName": "Golden Beats DJ Services",
+      "reviewerName": "Amina O.",
+      "reviewerRole": "Bride",
+      "eventType": "Wedding reception",
+      "rating": 5,
+      "body": "The team kept the whole reception moving smoothly, handled our mixed playlist perfectly, and felt organized from the first call to the last song.",
+      "wouldBookAgain": true,
+      "status": "pending",
+      "submittedAt": "June 13, 2026",
+      "image": "https://i.pravatar.cc/120?img=32",
+      "createdAt": "2026-06-13T09:00:00.000Z",
+      "updatedAt": "2026-07-07T16:14:57.337Z"
+    },
+    {
+      "id": "review-goldenbeats-2",
+      "requestId": "review-request-goldenbeats-2",
+      "vendorSlug": "golden-beats-dj-services",
+      "vendorName": "Golden Beats DJ Services",
+      "reviewerName": "Daniel K.",
+      "reviewerRole": "Event manager",
+      "eventType": "Corporate gala",
+      "rating": 5,
+      "body": "Professional, responsive, and easy to coordinate with. The transitions and announcement timing were excellent throughout the gala.",
+      "wouldBookAgain": true,
+      "status": "approved",
+      "submittedAt": "May 18, 2026",
+      "image": "https://i.pravatar.cc/120?img=15",
+      "createdAt": "2026-05-18T14:30:00.000Z",
+      "updatedAt": "2026-05-18T14:30:00.000Z"
+    }
+  ],
+  "leads": [
+    {
+      "id": "lead-goldenbeats-1",
+      "vendorSlug": "golden-beats-dj-services",
+      "name": "Amina O.",
+      "phone": "(416) 555-0184",
+      "email": "amina.owusu@example.com",
+      "eventType": "Wedding reception",
+      "city": "Toronto",
+      "guests": 420,
+      "budget": "$4,000 to $6,000",
+      "quoteAmount": "$5,200",
+      "due": "Today",
+      "eventDate": "Aug 17, 2026",
+      "serviceDetails": "Needs a DJ and MC for a multicultural wedding reception with Afrobeats, Soca, R&B, and Punjabi sets. Ceremony starts at 4:00 PM, cocktail hour at 5:30 PM, reception at 7:00 PM. Requires wireless mic, clean edits, grand entrance cues, and coordination with planner.",
+      "notes": "High priority lead. Client asked for bilingual MC availability and wants a quote before end of day.",
+      "status": "New inquiry",
+      "createdAt": "2026-06-11T10:00:00.000Z",
+      "updatedAt": "2026-06-11T10:00:00.000Z"
+    },
+    {
+      "id": "lead-goldenbeats-2",
+      "vendorSlug": "golden-beats-dj-services",
+      "name": "Daniel K.",
+      "phone": "(905) 555-0149",
+      "email": "daniel.kim@example.com",
+      "eventType": "Corporate gala",
+      "city": "Mississauga",
+      "guests": 260,
+      "budget": "$3,000+",
+      "quoteAmount": "$3,450",
+      "due": "Tomorrow",
+      "eventDate": "Sep 12, 2026",
+      "serviceDetails": "Corporate awards gala requiring background music during arrivals, walk-up stings for award winners, branded playlist review, two wireless mics, and a compact setup that fits hotel ballroom restrictions.",
+      "notes": "Procurement team needs insurance certificate and itemized quote.",
+      "status": "Quote sent",
+      "createdAt": "2026-06-12T10:00:00.000Z",
+      "updatedAt": "2026-06-12T10:00:00.000Z"
+    },
+    {
+      "id": "lead-goldenbeats-3",
+      "vendorSlug": "golden-beats-dj-services",
+      "name": "Nadia S.",
+      "phone": "(647) 555-0197",
+      "email": "nadia.singh@example.com",
+      "eventType": "Birthday celebration",
+      "city": "Brampton",
+      "guests": 180,
+      "budget": "$1,500 to $2,500",
+      "quoteAmount": "$2,100",
+      "due": "2 days",
+      "eventDate": "Jul 25, 2026",
+      "serviceDetails": "Milestone birthday with family-friendly music early evening and dance floor after dinner. Needs uplighting add-on pricing, Punjabi and Top 40 playlist, and setup before 5:00 PM.",
+      "notes": "Client is comparing two packages and asked about deposit terms.",
+      "status": "Follow up",
+      "createdAt": "2026-06-13T10:00:00.000Z",
+      "updatedAt": "2026-06-13T10:00:00.000Z"
+    }
+  ],
+  "vendorWorkspaceSettings": []
+}

@@ -1,0 +1,26 @@
+{
+  "name": "eventsphere-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local demo marketplace app for Event Sphere",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vite",
+    "dev:app": "vite",
+    "dev:api": "node server.js",
+    "build": "vite build",
+    "supabase:verify": "node backend/verify-supabase.js",
+    "supabase:sync-auth": "node backend/sync-supabase-auth.js",
+    "supabase:seed-data": "node backend/seed-supabase-data.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.1",
+    "@tailwindcss/vite": "^4.2.2",
+    "@vitejs/plugin-react": "^6.0.1",
+    "lucide-react": "^1.8.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "tailwindcss": "^4.2.2",
+    "vite": "^8.0.8"
+  }
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EventSphere | Multicultural Event Marketplace</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="/app.js"></script>
+  </head>
+  <body data-page="home">
+    <div class="shell">
+      <header class="site-header">
+        <div class="container header-row">
+          <a class="brand" href="/">
+            <span class="brand-mark">ES</span>
+            <span>EventSphere</span>
+          </a>
+          <nav class="nav">
+            <a class="active" href="/">Home</a>
+            <a href="/vendors">Browse Vendors</a>
+            <a data-dashboard-link href="/login">Dashboard</a>
+          </nav>
+          <div class="actions">
+            <a class="button secondary" href="/register">List Your Business</a>
+            <a data-guest-only class="button" href="/login">Sign in</a>
+            <button data-auth-only data-logout class="button ghost hidden">Sign out</button>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="container">
+            <div class="hero-grid">
+              <article class="hero-stage">
+                <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1600&q=80" alt="Event setup" />
+                <div class="hero-copy">
+                  <span class="eyebrow">Event marketplace</span>
+                  <h1>Curating <span>culture.</span></h1>
+                  <p>
+                    The exclusive network for Canada's premier multicultural event professionals. Find vetted vendors
+                    for weddings, ceremonies, private celebrations, and large-format events.
+                  </p>
+                  <div class="chips">
+                    <span class="chip">Verified vendors</span>
+                    <span class="chip">Venue capacity filters</span>
+                    <span class="chip">Direct contact</span>
+                  </div>
+                </div>
+              </article>
+
+              <aside class="search-panel">
+                <div class="page-heading">
+                  <span class="eyebrow">Search the marketplace</span>
+                  <h2>Find the right vendor fast.</h2>
+                  <p>Search by category, city, or listing type to get from inspiration to shortlist quickly.</p>
+                </div>
+                <form data-search-form>
+                  <div class="field">
+                    <label>What?</label>
+                    <input type="search" name="q" placeholder="South Asian wedding decorators" />
+                  </div>
+                  <div class="field">
+                    <label>Listing type</label>
+                    <select name="type">
+                      <option value="all">All listings</option>
+                      <option value="vendor">Vendors</option>
+                      <option value="venue">Venues</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label>Category</label>
+                    <select name="category">
+                      <option value="">All categories</option>
+                    </select>
+                  </div>
+                  <div class="field">
+                    <label>Where?</label>
+                    <select name="city">
+                      <option value="">All cities</option>
+                    </select>
+                  </div>
+                  <button class="button" type="submit">Search</button>
+                </form>
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="stats-row">
+              <div class="stat"><strong data-stat-vendors>0</strong><p>Live vendors</p></div>
+              <div class="stat"><strong data-stat-venues>0</strong><p>Venue listings</p></div>
+              <div class="stat"><strong data-stat-cities>0</strong><p>Covered cities</p></div>
+              <div class="stat"><strong data-stat-categories>0</strong><p>Core categories</p></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section alt">
+          <div class="container">
+            <div class="split">
+              <div class="section-copy">
+                <span class="eyebrow">Explore categories</span>
+                <h2>Browse by category</h2>
+                <p>Start with the service you need, then compare quality, price point, and city coverage.</p>
+              </div>
+              <div class="panel">
+                <p>Search-first, fast-moving, and built for users who already know what they need.</p>
+              </div>
+            </div>
+            <div class="grid-4" data-categories></div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="split">
+              <div class="section-copy">
+                <span class="eyebrow">Featured vendors</span>
+                <h2>Vetted listings with stronger hierarchy.</h2>
+                <p>Clear pricing, quality imagery, and trust signals help planners compare without friction.</p>
+              </div>
+              <div class="inline-actions">
+                <a class="button secondary" href="/vendors">Browse all listings</a>
+              </div>
+            </div>
+            <div class="listing-grid" data-featured-vendors></div>
+          </div>
+        </section>
+
+        <section class="section alt">
+          <div class="container">
+            <div class="split">
+              <div class="section-copy">
+                <span class="eyebrow">Venue spaces</span>
+                <h2>Capacity-ready venue inventory.</h2>
+                <p>Large-format venues should feel like first-class marketplace inventory, not an afterthought.</p>
+              </div>
+              <div class="panel">
+                <p>Built around direct contact, city filtering, and size-aware shortlisting.</p>
+              </div>
+            </div>
+            <div class="listing-grid" data-featured-venues></div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="panel">
+              <div class="split">
+                <div class="section-copy">
+                  <span class="eyebrow">Live demo stack</span>
+                  <h2>Real routes. Real seeded data. Shared backend.</h2>
+                  <p>The selected client, vendor, and admin experiences are wired into the same local API, auth, vendor editing flow, and admin moderation actions.</p>
+                </div>
+                <div class="inline-actions">
+                  <a class="button" href="/vendors">Explore marketplace</a>
+                  <a class="button secondary" href="/dashboard/vendor">Vendor dashboard</a>
+                  <a class="button secondary" href="/dashboard/admin">Admin dashboard</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-grid">
+          <div>
+            <div class="brand">
+              <span class="brand-mark">ES</span>
+              <span>EventSphere</span>
+            </div>
+            <p>Connecting celebrants with trusted vendors and venues across Canada.</p>
+          </div>
+          <div>
+            <strong>Marketplace</strong>
+            <p><a href="/vendors">Browse Vendors</a></p>
+            <p><a href="/register">List Your Business</a></p>
+          </div>
+          <div>
+            <strong>Demo Access</strong>
+            <p><a href="/login">Vendor login</a></p>
+            <p><a href="/dashboard/admin">Admin dashboard</a></p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

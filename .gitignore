@@ -1,0 +1,11 @@
+.vercel
+.vercel.*
+.env
+.env.local
+.env.*.local
+.env*
+node_modules/
+dist/
+.DS_Store
+*.log
+supabase/.temp/

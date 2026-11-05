@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Sphere | Admin 01</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="dashboard-shell">
+      <div class="dashboard-frame">
+        <aside class="sidebar">
+          <a class="brand" href="../index.html">
+            <span class="brand-mark">ES</span>
+            <span>Trust Ops</span>
+          </a>
+
+          <div class="sidebar-group">
+            <a class="active" href="admin-trust.html">Verification</a>
+            <a href="#">Cities</a>
+            <a href="#">Venues</a>
+            <a href="#">Reports</a>
+            <a href="#">Approvals</a>
+          </div>
+
+          <div class="queue">
+            <div class="queue-item">
+              <span class="mini-label">Approval queue</span>
+              <strong>23 pending</strong>
+              <p>Vendor and venue submissions waiting for manual review.</p>
+            </div>
+            <div class="queue-item">
+              <span class="mini-label">Coverage gap</span>
+              <strong>Ottawa venues</strong>
+              <p>Healthy vendor mix, but venue inventory is still thin.</p>
+            </div>
+          </div>
+        </aside>
+
+        <main class="main-pane">
+          <div class="pane-header">
+            <div>
+              <span class="eyebrow">Admin Concept 01</span>
+              <h2>Operations dashboard focused on trust, quality, and launch readiness.</h2>
+            </div>
+            <div class="hero-actions">
+              <a class="button" href="vendor-bookings.html">Vendor 02</a>
+              <a class="button secondary" href="admin-growth.html">Admin 02</a>
+            </div>
+          </div>
+
+          <section class="kpi-grid">
+            <article class="metric-card">
+              <span class="mini-label">Verified vendors</span>
+              <strong>78</strong>
+              <p>Approved and visible in the marketplace.</p>
+            </article>
+            <article class="metric-card">
+              <span class="mini-label">Pending reviews</span>
+              <strong>23</strong>
+              <p>Business checks and portfolio screening remaining.</p>
+            </article>
+            <article class="metric-card">
+              <span class="mini-label">Venue count</span>
+              <strong>31</strong>
+              <p>Listings with contact details and capacity bands.</p>
+            </article>
+            <article class="metric-card">
+              <span class="mini-label">Compliance flags</span>
+              <strong>6</strong>
+              <p>Items requiring follow-up before publication.</p>
+            </article>
+          </section>
+
+          <section class="grid-2">
+            <div class="panel">
+              <div class="split-title">
+                <div>
+                  <span class="eyebrow">Review Queue</span>
+                  <h3>Priority submissions</h3>
+                </div>
+              </div>
+              <div class="list">
+                <div class="list-row">
+                  <div>
+                    <strong>North Frame Collective</strong>
+                    <p>Photography vendor with strong gallery but missing insurance document.</p>
+                  </div>
+                  <span class="status light">Need docs</span>
+                </div>
+                <div class="list-row">
+                  <div>
+                    <strong>Elm Garden Pavilion</strong>
+                    <p>Venue capacity mismatch between brochure and form field.</p>
+                  </div>
+                  <span class="status light">Check capacity</span>
+                </div>
+                <div class="list-row">
+                  <div>
+                    <strong>Atlas Event Supply</strong>
+                    <p>Rental company ready for approval after phone verification.</p>
+                  </div>
+                  <span class="status light">Call today</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel">
+              <span class="eyebrow">Coverage Health</span>
+              <div class="bar-list">
+                <div class="bar-row">
+                  <div class="meta-row"><strong>Toronto</strong><span>Strong</span></div>
+                  <div class="bar-track"><div class="bar-fill" style="width: 92%;"></div></div>
+                </div>
+                <div class="bar-row">
+                  <div class="meta-row"><strong>Winnipeg</strong><span>Growing</span></div>
+                  <div class="bar-track"><div class="bar-fill" style="width: 58%;"></div></div>
+                </div>
+                <div class="bar-row">
+                  <div class="meta-row"><strong>Calgary</strong><span>Balanced</span></div>
+                  <div class="bar-track"><div class="bar-fill" style="width: 74%;"></div></div>
+                </div>
+                <div class="bar-row">
+                  <div class="meta-row"><strong>Montreal</strong><span>Early</span></div>
+                  <div class="bar-track"><div class="bar-fill" style="width: 33%;"></div></div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="grid-2">
+            <div class="panel">
+              <div class="split-title">
+                <div>
+                  <span class="eyebrow">Venue Checks</span>
+                  <h3>Capacity and contact review</h3>
+                </div>
+              </div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Venue</th>
+                    <th>Issue</th>
+                    <th>Owner</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <strong>Regent Ballroom</strong>
+                      <span class="table-subtle">Toronto</span>
+                    </td>
+                    <td>Capacity band needs update</td>
+                    <td>Ops lead</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Canal House</strong>
+                      <span class="table-subtle">Ottawa</span>
+                    </td>
+                    <td>Email bounced during verification</td>
+                    <td>Support</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Garden Court</strong>
+                      <span class="table-subtle">Calgary</span>
+                    </td>
+                    <td>Gallery needs two higher-quality images</td>
+                    <td>Content</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="panel">
+              <div class="split-title">
+                <div>
+                  <span class="eyebrow">Moderation Trend</span>
+                  <h3>Submission quality over time</h3>
+                </div>
+              </div>
+              <div class="chart">
+                <svg viewBox="0 0 600 260" preserveAspectRatio="none" aria-hidden="true">
+                  <polyline
+                    fill="none"
+                    stroke="#ffffff"
+                    stroke-width="4"
+                    points="0,170 90,150 180,158 270,124 360,116 450,95 600,72"
+                  />
+                </svg>
+              </div>
+              <p style="margin-top: 0.9rem;">Cleaner onboarding forms and manual checks are reducing back-and-forth on approvals.</p>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

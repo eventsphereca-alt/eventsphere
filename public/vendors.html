@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browse Vendors | EventSphere</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="/app.js"></script>
+  </head>
+  <body data-page="vendors">
+    <div class="shell">
+      <header class="site-header">
+        <div class="container header-row">
+          <a class="brand" href="/"><span class="brand-mark">ES</span><span>EventSphere</span></a>
+          <nav class="nav">
+            <a href="/">Home</a>
+            <a class="active" href="/vendors">Browse Vendors</a>
+            <a data-dashboard-link href="/login">Dashboard</a>
+          </nav>
+          <div class="actions">
+            <a class="button secondary" href="/register">List Your Business</a>
+            <a data-guest-only class="button" href="/login">Sign in</a>
+            <button data-auth-only data-logout class="button ghost hidden">Sign out</button>
+          </div>
+        </div>
+      </header>
+
+      <main class="page" data-page-layout="browse">
+        <div class="container">
+          <div class="page-heading">
+            <h1>Browse vendors and venue spaces</h1>
+            <p>Filter by category, city, listing type, and keywords to get to a shortlist quickly.</p>
+          </div>
+          <div class="page-layout">
+            <aside class="sidebar">
+              <form class="filter-panel" data-filter-form>
+                <h3>Refine search</h3>
+                <div class="field">
+                  <label>Search</label>
+                  <input type="search" name="q" placeholder="DJ, venue, decorator..." />
+                </div>
+                <div class="field">
+                  <label>Type</label>
+                  <select name="type">
+                    <option value="all">All listings</option>
+                    <option value="vendor">Vendors only</option>
+                    <option value="venue">Venues only</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label>Category</label>
+                  <select name="category">
+                    <option value="">All categories</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label>City</label>
+                  <select name="city">
+                    <option value="">All cities</option>
+                  </select>
+                </div>
+                <button class="button" type="submit">Apply filters</button>
+              </form>
+            </aside>
+
+            <section>
+              <div class="results-head">
+                <div>
+                  <h2>Marketplace results</h2>
+                  <p data-result-count>0 results</p>
+                </div>
+              </div>
+              <div class="listing-grid" data-results></div>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

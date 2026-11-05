@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Growth Dashboard | EventSphere</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="/app.js"></script>
+  </head>
+  <body data-page="admin-dashboard-growth">
+    <div class="shell">
+      <header class="site-header">
+        <div class="container header-row">
+          <a class="brand" href="/"><span class="brand-mark">ES</span><span>EventSphere</span></a>
+          <nav class="nav">
+            <a class="active" href="/dashboard/admin">Admin dashboard</a>
+            <a href="/vendors">Browse Vendors</a>
+          </nav>
+          <div class="actions">
+            <button data-logout class="button">Sign out</button>
+          </div>
+        </div>
+      </header>
+
+      <main class="dashboard-shell">
+        <div class="container">
+          <div class="message hidden" data-guard>
+            <h3>Admin login required</h3>
+            <p>Sign in with the admin account to view growth insights.</p>
+            <p><a href="/login">Go to login</a></p>
+          </div>
+
+          <div data-admin-app>
+            <section class="workspace">
+              <aside class="workspace-sidebar">
+                <div>
+                  <div class="workspace-brand">Admin dashboard</div>
+                  <div class="workspace-title">
+                    <h2>Growth and expansion</h2>
+                    <p>Cleaner light-mode planning view for city mix, featured supply, and rollout readiness.</p>
+                  </div>
+                </div>
+                <nav class="workspace-nav">
+                  <a class="active" href="/dashboard/admin">Expansion</a>
+                  <a href="/vendors">Marketplace</a>
+                </nav>
+                <div class="workspace-note">
+                  <p>Strategic planning view for supply health, featured inventory, and rollout readiness.</p>
+                </div>
+              </aside>
+
+              <div class="workspace-main">
+                <div class="dashboard-head">
+                  <div class="workspace-title">
+                    <span class="eyebrow">Expansion command</span>
+                    <h1>Supply by city.</h1>
+                    <p>Track approved inventory, featured coverage, and where onboarding effort needs to go next.</p>
+                  </div>
+                </div>
+
+                <div class="dashboard-kpis">
+                  <div class="kpi"><strong data-growth-approved>0</strong><p>Approved vendors</p></div>
+                  <div class="kpi"><strong data-growth-featured>0</strong><p>Featured listings</p></div>
+                  <div class="kpi"><strong data-growth-pending>0</strong><p>Pending onboarding</p></div>
+                  <div class="kpi"><strong data-growth-total>0</strong><p>Total live listings</p></div>
+                </div>
+
+                <section class="section">
+                  <div class="dashboard-grid">
+                    <article class="panel">
+                      <div class="panel-title">
+                        <div>
+                          <h3>Top city supply</h3>
+                          <p>Current coverage across the strongest local markets.</p>
+                        </div>
+                      </div>
+                      <div class="bar-list" data-growth-cities></div>
+                    </article>
+                    <article class="panel">
+                      <div class="panel-title">
+                        <div>
+                          <h3>Featured inventory</h3>
+                          <p>Listings currently carrying premium marketplace placement.</p>
+                        </div>
+                      </div>
+                      <div class="queue" data-growth-featured-list></div>
+                    </article>
+                  </div>
+                </section>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

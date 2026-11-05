@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listing | EventSphere</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="/app.js"></script>
+  </head>
+  <body data-page="vendor-detail">
+    <div class="shell">
+      <header class="site-header">
+        <div class="container header-row">
+          <a class="brand" href="/"><span class="brand-mark">ES</span><span>EventSphere</span></a>
+          <nav class="nav">
+            <a href="/">Home</a>
+            <a class="active" href="/vendors">Browse Vendors</a>
+            <a data-dashboard-link href="/login">Dashboard</a>
+          </nav>
+          <div class="actions">
+            <a class="button secondary" href="/register">List Your Business</a>
+            <a data-guest-only class="button" href="/login">Sign in</a>
+            <button data-auth-only data-logout class="button ghost hidden">Sign out</button>
+          </div>
+        </div>
+      </header>
+
+      <main class="page">
+        <div class="container">
+          <div class="detail-hero" data-detail-hero></div>
+
+          <section class="section">
+            <div class="grid-2">
+              <div>
+                <div class="section-copy">
+                  <h2>Gallery</h2>
+                  <p>Visual proof of work matters, especially in marketplace discovery.</p>
+                </div>
+                <div class="gallery-grid" data-gallery></div>
+              </div>
+              <div data-detail-meta></div>
+            </div>
+          </section>
+
+          <section class="section alt">
+            <div class="section-copy">
+              <h2>Similar listings</h2>
+              <p>More options in the same category.</p>
+            </div>
+            <div class="listing-grid" data-similar></div>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

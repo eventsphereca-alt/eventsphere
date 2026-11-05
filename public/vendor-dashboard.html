@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vendor Dashboard | EventSphere</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <script defer src="/app.js"></script>
+  </head>
+  <body data-page="vendor-dashboard">
+    <div class="shell">
+      <header class="site-header">
+        <div class="container header-row">
+          <a class="brand" href="/"><span class="brand-mark">ES</span><span>EventSphere</span></a>
+          <nav class="nav">
+            <a href="/">Home</a>
+            <a href="/vendors">Browse Vendors</a>
+            <a class="active" href="/dashboard/vendor">Vendor dashboard</a>
+          </nav>
+          <div class="actions">
+            <a class="button secondary" href="/register">List Your Business</a>
+            <button data-logout class="button">Sign out</button>
+          </div>
+        </div>
+      </header>
+
+      <main class="dashboard-shell">
+        <div class="container">
+          <div class="message hidden" data-guard>
+            <h3>Vendor login required</h3>
+            <p>Sign in with the seeded vendor account to view the live vendor dashboard.</p>
+            <p><a href="/login">Go to login</a></p>
+          </div>
+
+          <div data-vendor-app>
+            <section class="workspace">
+              <aside class="workspace-sidebar">
+                <div>
+                  <div class="workspace-brand">Vendor dashboard</div>
+                  <div class="workspace-title">
+                    <h2>Performance dashboard</h2>
+                    <p>Analytics-first layout with lead visibility before editing controls.</p>
+                  </div>
+                </div>
+                <nav class="workspace-nav">
+                  <a class="active" href="/dashboard/vendor">Overview</a>
+                  <a href="/vendors">Marketplace view</a>
+                </nav>
+                <div class="workspace-note">
+                  <p>Quick signal on demand, traffic, and open work.</p>
+                </div>
+              </aside>
+
+              <div class="workspace-main">
+                <div class="dashboard-head">
+                  <div class="workspace-title">
+                    <span class="eyebrow">Vendor workspace</span>
+                    <h1 data-vendor-name>Vendor Dashboard</h1>
+                    <p>Monitor listing performance, lead velocity, and what needs a reply today.</p>
+                  </div>
+                  <div class="inline-actions">
+                    <a class="button secondary" data-view-public href="/vendors">View public profile</a>
+                    <span class="status pending" data-vendor-status>pending</span>
+                  </div>
+                </div>
+
+                <div class="dashboard-kpis">
+                  <div class="kpi"><strong data-kpi-views-today>0</strong><p>Views today</p></div>
+                  <div class="kpi"><strong data-kpi-views-week>0</strong><p>Views this week</p></div>
+                  <div class="kpi"><strong data-kpi-views-month>0</strong><p>Views this month</p></div>
+                  <div class="kpi"><strong data-kpi-leads>0</strong><p>Open leads</p></div>
+                </div>
+
+                <section class="section">
+                  <div class="panel">
+                    <div class="panel-title">
+                      <div>
+                        <h3>Recent leads</h3>
+                        <p>Inquiry queue mapped to a tighter product dashboard layout.</p>
+                      </div>
+                      <div class="chips">
+                        <span class="chip">Live demo data</span>
+                        <span class="chip">Shared backend</span>
+                      </div>
+                    </div>
+                    <div data-open-leads></div>
+                  </div>
+                </section>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

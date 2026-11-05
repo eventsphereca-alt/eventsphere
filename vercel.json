@@ -1,0 +1,143 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "/api/proxy?path=:path*"
+    },
+    {
+      "source": "/vendor",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/vendor/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/admin",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/admin/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/settings",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/settings/:path*",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/leads",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/clients",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/profile",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/media",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/availability",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/service-areas",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/packages",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/listing-settings",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/notifications",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/reviews",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/support",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/quotes",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/requests",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/featured",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/audit",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/permissions",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/login",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/listings",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/list-your-business",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/vendors",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/venues",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/listing/:path*",
+      "destination": "/index.html"
+    }
+  ]
+}
